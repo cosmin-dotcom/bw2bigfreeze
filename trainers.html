@@ -1,0 +1,470 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Johto Trainers</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="trainer-page">
+    <header class="site-header">
+      <div class="site-header-top">
+        <div class="site-header-brand">
+          <h1 class="site-title"><a href="index.html">Johto Trainers</a></h1>
+          <p class="site-sub">Major battles only • first battle and rematch views</p>
+        </div>
+      </div>
+      <div class="nav-wrap">
+        <nav class="nav">
+          <a href="index.html">Home</a>
+          <a href="trainers.html" aria-current="page">Trainers</a>
+        </nav>
+      </div>
+    </header>
+
+    <div class="toolbar">
+      <div class="search-wrap">
+        <input id="search" type="search" autocomplete="off" spellcheck="false" placeholder="Search a trainer or Pokémon..." aria-label="Search trainers" />
+      </div>
+    </div>
+
+    <p class="page-intro">Major battles only. Trainers you face more than once show each battle as a button beneath their name. This page starts with the Johto Gym Leaders and captures the same first-battle/rematch toggle pattern used in the documentation site.</p>
+
+    <main>
+      <h2 class="group-heading">Johto Gym Leaders</h2>
+
+      <section class="card" data-search="falkner leader johto gym badge 1 rematch post sinjoh pidgey noctowl skarmory swellow honchkrow pidgeot pelipper">
+        <h2><img class="trainerpic" src="https://raw.githubusercontent.com/PokemonHnS-Development/pokehns-expansion-documentation/main/assets/trainer/leader_falkner_hns.png" alt="Falkner" width="64" height="64" loading="lazy" />Falkner <span class="card-num">Leader</span></h2>
+        <div class="forms">
+          <span class="forms-label">Battles</span>
+          <button class="formpill" type="button" data-form="0" aria-pressed="true">Badge 1</button>
+          <button class="formpill" type="button" data-form="1" aria-pressed="false">Rematch</button>
+          <button class="formpill" type="button" data-form="2" aria-pressed="false">Post-Sinjoh</button>
+        </div>
+        <div class="card-body">
+          <div class="panel" data-form="0">
+            <p class="setting-note">TRAINER_FALKNER_1_HNS</p>
+            <div class="party">
+              <div class="mon-card">
+                <div class="mon-head">
+                  <img class="monicon" src="https://raw.githubusercontent.com/PokemonHnS-Development/pokehns-expansion-documentation/main/assets/icon/pidgey.png" alt="Pidgey" width="32" height="32" loading="lazy" />
+                  <h4>Pidgey</h4>
+                </div>
+                <p class="meta">Lv. 8 • Item: None • Ability: Keen Eye</p>
+                <ul>
+                  <li><span class="mv t-normal">Tackle</span></li>
+                  <li><span class="mv t-ground">Sand Attack</span></li>
+                  <li><span class="mv t-normal">Quick Attack</span></li>
+                </ul>
+              </div>
+              <div class="mon-card">
+                <div class="mon-head">
+                  <img class="monicon" src="https://raw.githubusercontent.com/PokemonHnS-Development/pokehns-expansion-documentation/main/assets/icon/noctowl.png" alt="Noctowl" width="32" height="32" loading="lazy" />
+                  <h4>Noctowl</h4>
+                </div>
+                <p class="meta">Lv. 11 • Item: Sitrus Berry • Ability: Insomnia</p>
+                <ul>
+                  <li><span class="mv t-normal">Tackle</span></li>
+                  <li><span class="mv t-ground">Mud-Slap</span></li>
+                  <li><span class="mv t-flying">Peck</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="panel" data-form="1" hidden>
+            <p class="card-note">Rematch: Celadon Department Store — After you reach Vermilion</p>
+            <p class="setting-note">TRAINER_FALKNER_2_HNS</p>
+            <div class="party">
+              <div class="mon-card">
+                <div class="mon-head">
+                  <img class="monicon" src="https://raw.githubusercontent.com/PokemonHnS-Development/pokehns-expansion-documentation/main/assets/icon/noctowl.png" alt="Noctowl" width="32" height="32" loading="lazy" />
+                  <h4>Noctowl</h4>
+                </div>
+                <p class="meta">Lv. 64 • Item: Sitrus Berry • Ability: Insomnia</p>
+                <ul>
+                  <li><span class="mv t-psychic">Psychic</span></li>
+                  <li><span class="mv t-flying">Air Slash</span></li>
+                  <li><span class="mv t-psychic">Hypnosis</span></li>
+                  <li><span class="mv t-psychic">Dream Eater</span></li>
+                </ul>
+              </div>
+              <div class="mon-card">
+                <div class="mon-head">
+                  <img class="monicon" src="https://raw.githubusercontent.com/PokemonHnS-Development/pokehns-expansion-documentation/main/assets/icon/skarmory.png" alt="Skarmory" width="32" height="32" loading="lazy" />
+                  <h4>Skarmory</h4>
+                </div>
+                <p class="meta">Lv. 63 • Item: None • Ability: Keen Eye</p>
+                <ul>
+                  <li><span class="mv t-rock">Stealth Rock</span></li>
+                  <li><span class="mv t-flying">Drill Peck</span></li>
+                  <li><span class="mv t-steel">Metal Sound</span></li>
+                  <li><span class="mv t-steel">Steel Wing</span></li>
+                </ul>
+              </div>
+              <div class="mon-card">
+                <div class="mon-head">
+                  <img class="monicon" src="https://raw.githubusercontent.com/PokemonHnS-Development/pokehns-expansion-documentation/main/assets/icon/swellow.png" alt="Swellow" width="32" height="32" loading="lazy" />
+                  <h4>Swellow</h4>
+                </div>
+                <p class="meta">Lv. 63 • Item: Focus Band • Ability: Guts</p>
+                <ul>
+                  <li><span class="mv t-normal">Endeavor</span></li>
+                  <li><span class="mv t-normal">Double Team</span></li>
+                  <li><span class="mv t-flying">Brave Bird</span></li>
+                  <li><span class="mv t-steel">Steel Wing</span></li>
+                </ul>
+              </div>
+              <div class="mon-card">
+                <div class="mon-head">
+                  <img class="monicon" src="https://raw.githubusercontent.com/PokemonHnS-Development/pokehns-expansion-documentation/main/assets/icon/honchkrow.png" alt="Honchkrow" width="32" height="32" loading="lazy" />
+                  <h4>Honchkrow</h4>
+                </div>
+                <p class="meta">Lv. 64 • Item: None • Ability: Insomnia</p>
+                <ul>
+                  <li><span class="mv t-normal">Mimic</span></li>
+                  <li><span class="mv t-dark">Dark Pulse</span></li>
+                  <li><span class="mv t-flying">Air Slash</span></li>
+                  <li><span class="mv t-dark">Nasty Plot</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="panel" data-form="2" hidden>
+            <p class="card-note">Saffron City Fighting Dojo (VIP room) — Available after completing the Sinjoh Ruins storyline</p>
+            <p class="setting-note">TRAINER_FALKNER_POSTOBC_HNS</p>
+            <div class="party">
+              <div class="mon-card">
+                <div class="mon-head">
+                  <img class="monicon" src="https://raw.githubusercontent.com/PokemonHnS-Development/pokehns-expansion-documentation/main/assets/icon/noctowl.png" alt="Noctowl" width="32" height="32" loading="lazy" />
+                  <h4>Noctowl</h4>
+                </div>
+                <p class="meta">Lv. 69 • Item: None • Ability: Tinted Lens</p>
+                <ul>
+                  <li><span class="mv t-psychic">Psychic</span></li>
+                  <li><span class="mv t-flying">Air Slash</span></li>
+                  <li><span class="mv t-psychic">Calm Mind</span></li>
+                  <li><span class="mv t-normal">Hyper Voice</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="card" data-search="bugsy leader johto gym badge 2 rematch post sinjoh pineco ledian scyther forretress yanmega shedinja scizor">
+        <h2><img class="trainerpic" src="https://raw.githubusercontent.com/PokemonHnS-Development/pokehns-expansion-documentation/main/assets/trainer/leader_bugsy_hns.png" alt="Bugsy" width="64" height="64" loading="lazy" />Bugsy <span class="card-num">Leader</span></h2>
+        <div class="forms">
+          <span class="forms-label">Battles</span>
+          <button class="formpill" type="button" data-form="0" aria-pressed="true">Badge 2</button>
+          <button class="formpill" type="button" data-form="1" aria-pressed="false">Rematch</button>
+          <button class="formpill" type="button" data-form="2" aria-pressed="false">Post-Sinjoh</button>
+        </div>
+        <div class="card-body">
+          <div class="panel" data-form="0">
+            <p class="card-note">Carries: Potion / Potion</p>
+            <p class="setting-note">TRAINER_BUGSY_1_HNS</p>
+            <div class="party">
+              <div class="mon-card">
+                <div class="mon-head">
+                  <img class="monicon" src="https://raw.githubusercontent.com/PokemonHnS-Development/pokehns-expansion-documentation/main/assets/icon/pineco.png" alt="Pineco" width="32" height="32" loading="lazy" />
+                  <h4>Pineco</h4>
+                </div>
+                <p class="meta">Lv. 15 • Item: None • Ability: Sturdy</p>
+                <ul>
+                  <li><span class="mv t-bug">Pin Missile</span></li>
+                  <li><span class="mv t-normal">Headbutt</span></li>
+                  <li><span class="mv t-rock">Rollout</span></li>
+                  <li><span class="mv t-normal">Harden</span></li>
+                </ul>
+              </div>
+              <div class="mon-card">
+                <div class="mon-head">
+                  <img class="monicon" src="https://raw.githubusercontent.com/PokemonHnS-Development/pokehns-expansion-documentation/main/assets/icon/ledian.png" alt="Ledian" width="32" height="32" loading="lazy" />
+                  <h4>Ledian</h4>
+                </div>
+                <p class="meta">Lv. 15 • Item: None • Ability: Swarm</p>
+                <ul>
+                  <li><span class="mv t-electric">Thunder Punch</span></li>
+                  <li><span class="mv t-normal">Comet Punch</span></li>
+                  <li><span class="mv t-normal">Supersonic</span></li>
+                  <li><span class="mv t-psychic">Reflect</span></li>
+                </ul>
+              </div>
+              <div class="mon-card">
+                <div class="mon-head">
+                  <img class="monicon" src="https://raw.githubusercontent.com/PokemonHnS-Development/pokehns-expansion-documentation/main/assets/icon/scyther.png" alt="Scyther" width="32" height="32" loading="lazy" />
+                  <h4>Scyther</h4>
+                </div>
+                <p class="meta">Lv. 16 • Item: Berry Juice • Ability: Swarm</p>
+                <ul>
+                  <li><span class="mv t-normal">Quick Attack</span></li>
+                  <li><span class="mv t-bug">Fury Cutter</span></li>
+                  <li><span class="mv t-bug">U-turn</span></li>
+                  <li><span class="mv t-dark">Pursuit</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="panel" data-form="1" hidden>
+            <p class="card-note">Rematch: Viridian Forest — After you reach Vermilion</p>
+            <p class="setting-note">TRAINER_BUGSY_2_HNS</p>
+            <div class="party">
+              <div class="mon-card">
+                <div class="mon-head">
+                  <img class="monicon" src="https://raw.githubusercontent.com/PokemonHnS-Development/pokehns-expansion-documentation/main/assets/icon/ledian.png" alt="Ledian" width="32" height="32" loading="lazy" />
+                  <h4>Ledian</h4>
+                </div>
+                <p class="meta">Lv. 64 • Item: Focus Band • Ability: Swarm</p>
+                <ul>
+                  <li><span class="mv t-fighting">Drain Punch</span></li>
+                  <li><span class="mv t-normal">Swords Dance</span></li>
+                  <li><span class="mv t-bug">Bug Buzz</span></li>
+                  <li><span class="mv t-normal">Baton Pass</span></li>
+                </ul>
+              </div>
+              <div class="mon-card">
+                <div class="mon-head">
+                  <img class="monicon" src="https://raw.githubusercontent.com/PokemonHnS-Development/pokehns-expansion-documentation/main/assets/icon/forretress.png" alt="Forretress" width="32" height="32" loading="lazy" />
+                  <h4>Forretress</h4>
+                </div>
+                <p class="meta">Lv. 63 • Item: None • Ability: Sturdy</p>
+                <ul>
+                  <li><span class="mv t-steel">Iron Defense</span></li>
+                  <li><span class="mv t-normal">Rapid Spin</span></li>
+                  <li><span class="mv t-steel">Gyro Ball</span></li>
+                  <li><span class="mv t-ground">Earthquake</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="card" data-search="whitney leader johto gym badge 3 rematch post sinjoh clefairy teddiursa miltank clefable delcatty blissey tauros lickilicky">
+        <h2><img class="trainerpic" src="https://raw.githubusercontent.com/PokemonHnS-Development/pokehns-expansion-documentation/main/assets/trainer/leader_whitney_hns.png" alt="Whitney" width="64" height="64" loading="lazy" />Whitney <span class="card-num">Leader</span></h2>
+        <div class="forms">
+          <span class="forms-label">Battles</span>
+          <button class="formpill" type="button" data-form="0" aria-pressed="true">Badge 3</button>
+          <button class="formpill" type="button" data-form="1" aria-pressed="false">Rematch</button>
+          <button class="formpill" type="button" data-form="2" aria-pressed="false">Post-Sinjoh</button>
+        </div>
+        <div class="card-body">
+          <div class="panel" data-form="0">
+            <p class="setting-note">TRAINER_WHITNEY_1_HNS</p>
+            <div class="party">
+              <div class="mon-card">
+                <div class="mon-head">
+                  <img class="monicon" src="https://raw.githubusercontent.com/PokemonHnS-Development/pokehns-expansion-documentation/main/assets/icon/clefairy.png" alt="Clefairy" width="32" height="32" loading="lazy" />
+                  <h4>Clefairy</h4>
+                </div>
+                <p class="meta">Lv. 20 • Item: None • Ability: Cute Charm</p>
+                <ul>
+                  <li><span class="mv t-normal">Headbutt</span></li>
+                  <li><span class="mv t-fairy">Charm</span></li>
+                  <li><span class="mv t-fairy">Sweet Kiss</span></li>
+                  <li><span class="mv t-normal">Metronome</span></li>
+                </ul>
+              </div>
+              <div class="mon-card">
+                <div class="mon-head">
+                  <img class="monicon" src="https://raw.githubusercontent.com/PokemonHnS-Development/pokehns-expansion-documentation/main/assets/icon/teddiursa.png" alt="Teddiursa" width="32" height="32" loading="lazy" />
+                  <h4>Teddiursa</h4>
+                </div>
+                <p class="meta">Lv. 20 • Item: None • Ability: Pickup</p>
+                <ul>
+                  <li><span class="mv t-normal">Fury Swipes</span></li>
+                  <li><span class="mv t-dark">Fake Tears</span></li>
+                  <li><span class="mv t-ghost">Lick</span></li>
+                  <li><span class="mv t-ground">Mud-Slap</span></li>
+                </ul>
+              </div>
+              <div class="mon-card">
+                <div class="mon-head">
+                  <img class="monicon" src="https://raw.githubusercontent.com/PokemonHnS-Development/pokehns-expansion-documentation/main/assets/icon/miltank.png" alt="Miltank" width="32" height="32" loading="lazy" />
+                  <h4>Miltank</h4>
+                </div>
+                <p class="meta">Lv. 21 • Item: Sitrus Berry • Ability: Thick Fat</p>
+                <ul>
+                  <li><span class="mv t-rock">Rollout</span></li>
+                  <li><span class="mv t-normal">Attract</span></li>
+                  <li><span class="mv t-normal">Stomp</span></li>
+                  <li><span class="mv t-normal">Milk Drink</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="panel" data-form="1" hidden>
+            <p class="card-note">Rematch: Goldenrod Department Store — After you reach Vermilion</p>
+            <p class="setting-note">TRAINER_WHITNEY_2_HNS</p>
+            <div class="party">
+              <div class="mon-card">
+                <div class="mon-head">
+                  <img class="monicon" src="https://raw.githubusercontent.com/PokemonHnS-Development/pokehns-expansion-documentation/main/assets/icon/clefable.png" alt="Clefable" width="32" height="32" loading="lazy" />
+                  <h4>Clefable</h4>
+                </div>
+                <p class="meta">Lv. 63 • Item: None • Ability: Cute Charm</p>
+                <ul>
+                  <li><span class="mv t-fairy">Moonblast</span></li>
+                  <li><span class="mv t-steel">Meteor Mash</span></li>
+                  <li><span class="mv t-psychic">Healing Wish</span></li>
+                  <li><span class="mv t-normal">Encore</span></li>
+                </ul>
+              </div>
+              <div class="mon-card">
+                <div class="mon-head">
+                  <img class="monicon" src="https://raw.githubusercontent.com/PokemonHnS-Development/pokehns-expansion-documentation/main/assets/icon/delcatty.png" alt="Delcatty" width="32" height="32" loading="lazy" />
+                  <h4>Delcatty</h4>
+                </div>
+                <p class="meta">Lv. 64 • Item: Chesto Berry • Ability: Cute Charm</p>
+                <ul>
+                  <li><span class="mv t-normal">Double-Edge</span></li>
+                  <li><span class="mv t-normal">Fake Out</span></li>
+                  <li><span class="mv t-normal">Attract</span></li>
+                  <li><span class="mv t-fairy">Play Rough</span></li>
+                </ul>
+              </div>
+              <div class="mon-card">
+                <div class="mon-head">
+                  <img class="monicon" src="https://raw.githubusercontent.com/PokemonHnS-Development/pokehns-expansion-documentation/main/assets/icon/blissey.png" alt="Blissey" width="32" height="32" loading="lazy" />
+                  <h4>Blissey</h4>
+                </div>
+                <p class="meta">Lv. 63 • Item: None • Ability: Natural Cure</p>
+                <ul>
+                  <li><span class="mv t-normal">Sing</span></li>
+                  <li><span class="mv t-psychic">Light Screen</span></li>
+                  <li><span class="mv t-normal">Attract</span></li>
+                  <li><span class="mv t-normal">Soft-Boiled</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="card" data-search="morty leader johto gym badge 4 rematch post sinjoh haunter stantler misdreavus gengar sableye wyrdeer">
+        <h2><img class="trainerpic" src="https://raw.githubusercontent.com/PokemonHnS-Development/pokehns-expansion-documentation/main/assets/trainer/leader_morty_hns.png" alt="Morty" width="64" height="64" loading="lazy" />Morty <span class="card-num">Leader</span></h2>
+        <div class="forms">
+          <span class="forms-label">Battles</span>
+          <button class="formpill" type="button" data-form="0" aria-pressed="true">Badge 4</button>
+          <button class="formpill" type="button" data-form="1" aria-pressed="false">Rematch</button>
+          <button class="formpill" type="button" data-form="2" aria-pressed="false">Post-Sinjoh</button>
+        </div>
+        <div class="card-body">
+          <div class="panel" data-form="0">
+            <p class="setting-note">TRAINER_MORTY_1_HNS</p>
+            <div class="party">
+              <div class="mon-card">
+                <div class="mon-head">
+                  <img class="monicon" src="https://raw.githubusercontent.com/PokemonHnS-Development/pokehns-expansion-documentation/main/assets/icon/haunter.png" alt="Haunter" width="32" height="32" loading="lazy" />
+                  <h4>Haunter</h4>
+                </div>
+                <p class="meta">Lv. 24 • Item: None • Ability: Levitate</p>
+                <ul>
+                  <li><span class="mv t-psychic">Hypnosis</span></li>
+                  <li><span class="mv t-ghost">Nightmare</span></li>
+                  <li><span class="mv t-ghost">Curse</span></li>
+                  <li><span class="mv t-ghost">Night Shade</span></li>
+                </ul>
+              </div>
+              <div class="mon-card">
+                <div class="mon-head">
+                  <img class="monicon" src="https://raw.githubusercontent.com/PokemonHnS-Development/pokehns-expansion-documentation/main/assets/icon/stantler.png" alt="Stantler" width="32" height="32" loading="lazy" />
+                  <h4>Stantler</h4>
+                </div>
+                <p class="meta">Lv. 23 • Item: None • Ability: Intimidate</p>
+                <ul>
+                  <li><span class="mv t-normal">Swift</span></li>
+                  <li><span class="mv t-psychic">Hypnosis</span></li>
+                  <li><span class="mv t-ghost">Nightmare</span></li>
+                  <li><span class="mv t-normal">Leer</span></li>
+                </ul>
+              </div>
+              <div class="mon-card">
+                <div class="mon-head">
+                  <img class="monicon" src="https://raw.githubusercontent.com/PokemonHnS-Development/pokehns-expansion-documentation/main/assets/icon/misdreavus.png" alt="Misdreavus" width="32" height="32" loading="lazy" />
+                  <h4>Misdreavus</h4>
+                </div>
+                <p class="meta">Lv. 24 • Item: None • Ability: Levitate</p>
+                <ul>
+                  <li><span class="mv t-ghost">Shadow Ball</span></li>
+                  <li><span class="mv t-normal">Pain Split</span></li>
+                  <li><span class="mv t-normal">Perish Song</span></li>
+                  <li><span class="mv t-psychic">Psywave</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="panel" data-form="1" hidden>
+            <p class="card-note">Rematch: Bellchime Trail — After you reach Vermilion</p>
+            <p class="setting-note">TRAINER_MORTY_2_HNS</p>
+            <div class="party">
+              <div class="mon-card">
+                <div class="mon-head">
+                  <img class="monicon" src="https://raw.githubusercontent.com/PokemonHnS-Development/pokehns-expansion-documentation/main/assets/icon/sableye.png" alt="Sableye" width="32" height="32" loading="lazy" />
+                  <h4>Sableye</h4>
+                </div>
+                <p class="meta">Lv. 64 • Item: None • Ability: Keen Eye</p>
+                <ul>
+                  <li><span class="mv t-dark">Quash</span></li>
+                  <li><span class="mv t-dark">Foul Play</span></li>
+                  <li><span class="mv t-ghost">Shadow Claw</span></li>
+                  <li><span class="mv t-rock">Power Gem</span></li>
+                </ul>
+              </div>
+              <div class="mon-card">
+                <div class="mon-head">
+                  <img class="monicon" src="https://raw.githubusercontent.com/PokemonHnS-Development/pokehns-expansion-documentation/main/assets/icon/wyrdeer.png" alt="Wyrdeer" width="32" height="32" loading="lazy" />
+                  <h4>Wyrdeer</h4>
+                </div>
+                <p class="meta">Lv. 63 • Item: Silk Scarf • Ability: Intimidate</p>
+                <ul>
+                  <li><span class="mv t-fighting">Jump Kick</span></li>
+                  <li><span class="mv t-normal">Psych Up</span></li>
+                  <li><span class="mv t-normal">Take Down</span></li>
+                  <li><span class="mv t-normal">Protect</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script>
+      const formButtons = document.querySelectorAll('.formpill');
+
+      formButtons.forEach(button => {
+        button.addEventListener('click', () => {
+          const section = button.closest('.card');
+          const selectedForm = Number(button.dataset.form);
+
+          section.querySelectorAll('.formpill').forEach(btn => {
+            btn.setAttribute('aria-pressed', String(btn === button));
+          });
+
+          section.querySelectorAll('.panel').forEach(panel => {
+            const panelForm = Number(panel.dataset.form);
+            panel.hidden = panelForm !== selectedForm;
+          });
+        });
+      });
+
+      const search = document.getElementById('search');
+      if (search) {
+        search.addEventListener('input', (event) => {
+          const q = event.target.value.trim().toLowerCase();
+          document.querySelectorAll('.card').forEach(card => {
+            const haystack = (card.dataset.search || '').toLowerCase();
+            const visible = !q || haystack.includes(q);
+            card.style.display = visible ? '' : 'none';
+          });
+        });
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Johto Trainers</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="home-page">
+    <div class="banner">Johto Trainers</div>
+    <div class="page-shell">
+      <div class="left-panel">
+        <p class="intro-text">
+          A compact Johto trainer reference inspired by the original Frostfalcon home screen,
+          rebuilt for a single Trainers-focused landing page.
+        </p>
+
+        <button class="main-menu-button trainer-button" onclick="OpenTrainers()">
+          Trainers
+        </button>
+      </div>
+
+      <div class="right-panel" aria-hidden="true">
+        <div class="sprite sprite-one"></div>
+        <div class="sprite sprite-two"></div>
+        <div class="sprite sprite-three"></div>
+        <div class="brand-mark"></div>
+      </div>
+    </div>
+
+    <script>
+      function OpenTrainers() {
+        window.location.href = "trainers.html";
+      }
+    </script>
+  </body>
+</html>
